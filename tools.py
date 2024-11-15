@@ -5,5 +5,5 @@ def replace_zeros_with_neighbors_mean(arr, win):
             for k in range(1, arr.shape[2] - 1):  # Third dimension (2719), avoiding edges
                 if arr[i, j, k] == 0:  # If it's a zero
                     arr[i, j, k] = sum(arr[i, j, k - win:k + win]) / win  # Replace with mean of neighbors
-    
+                    
     return arr
