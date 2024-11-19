@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="GOGAIT_FLODO07_OFF_STATIC_YF1" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Jan-21 10:41:19"/>
+    <Param header="0" name="x2d" value="GOGAIT_FLODO07_OFF_STATIC_YF1.x2d"/>
+    <Param header="0" name="x1d" value="GOGAIT_FLODO07_OFF_STATIC_YF1.x1d"/>
+  </Parameters>
+
+</Trial>

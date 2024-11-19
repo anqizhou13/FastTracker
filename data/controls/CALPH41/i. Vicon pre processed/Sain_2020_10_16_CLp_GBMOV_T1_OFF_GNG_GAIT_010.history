@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="Sain_2020_10_16_CLp_GBMOV_T1_OFF_GNG_GAIT_010" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2020-Oct-16 11:14:16"/>
+    <Param header="0" name="x2d" value="Sain_2020_10_16_CLp_GBMOV_T1_OFF_GNG_GAIT_010.x2d"/>
+    <Param header="0" name="x1d" value="Sain_2020_10_16_CLp_GBMOV_T1_OFF_GNG_GAIT_010.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.11.0.127963h"/>
+      <Param header="0" name="Start Date" value="2021-Mar-11 12:05:15"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:15"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="2368"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  CLAPH41:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:19"/>
+          <Param header="0" name="Label" value="CLAPH41:C7"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:19"/>
+          <Param header="0" name="Label" value="CLAPH41:RSHO"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:20"/>
+          <Param header="0" name="Label" value="CLAPH41:LSHO"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:20"/>
+          <Param header="0" name="Label" value="CLAPH41:RWRA"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:21"/>
+          <Param header="0" name="Label" value="CLAPH41:RWRB"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:21"/>
+          <Param header="0" name="Label" value="CLAPH41:RELB"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:22"/>
+          <Param header="0" name="Label" value="CLAPH41:LWRA"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:22"/>
+          <Param header="0" name="Label" value="CLAPH41:LWRB"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:23"/>
+          <Param header="0" name="Label" value="CLAPH41:LELB"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:24"/>
+          <Param header="0" name="Label" value="CLAPH41:RASI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:24"/>
+          <Param header="0" name="Label" value="CLAPH41:LPSI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:25"/>
+          <Param header="0" name="Label" value="CLAPH41:RPSI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:25"/>
+          <Param header="0" name="Label" value="CLAPH41:LASI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:26"/>
+          <Param header="0" name="Label" value="CLAPH41:RCONDE"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:27"/>
+          <Param header="0" name="Label" value="CLAPH41:RCONDI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:27"/>
+          <Param header="0" name="Label" value="CLAPH41:RTHI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:28"/>
+          <Param header="0" name="Label" value="CLAPH41:LCONDE"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:28"/>
+          <Param header="0" name="Label" value="CLAPH41:LCONDI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:29"/>
+          <Param header="0" name="Label" value="CLAPH41:LTHI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:30"/>
+          <Param header="0" name="Label" value="CLAPH41:RPER"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:30"/>
+          <Param header="0" name="Label" value="CLAPH41:RMALI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:31"/>
+          <Param header="0" name="Label" value="CLAPH41:RMALE"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:31"/>
+          <Param header="0" name="Label" value="CLAPH41:RTTA"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RTECH" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:32"/>
+          <Param header="0" name="Label" value="CLAPH41:RTECH"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:34"/>
+          <Param header="0" name="Label" value="CLAPH41:LPER"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:35"/>
+          <Param header="0" name="Label" value="CLAPH41:LMALI"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:35"/>
+          <Param header="0" name="Label" value="CLAPH41:LMALE"/>
+          <Param header="0" name="Frame" value="1"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:38"/>
+          <Param header="0" name="Label" value="CLAPH41:LTTA"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:39"/>
+          <Param header="0" name="Label" value="CLAPH41:RHEE"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:39"/>
+          <Param header="0" name="Label" value="CLAPH41:RHLX"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:40"/>
+          <Param header="0" name="Label" value="CLAPH41:RMETA5"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:41"/>
+          <Param header="0" name="Label" value="CLAPH41:RMETA1"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:42"/>
+          <Param header="0" name="Label" value="CLAPH41:LHEE"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:42"/>
+          <Param header="0" name="Label" value="CLAPH41:LHLX"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:43"/>
+          <Param header="0" name="Label" value="CLAPH41:LMETA5"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:43"/>
+          <Param header="0" name="Label" value="CLAPH41:LMETA1"/>
+          <Param header="0" name="Frame" value="42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:05:54"/>
+          <Param header="0" name="Label" value="CLAPH41:LHEE"/>
+          <Param header="0" name="Frame" value="1231"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:06:06"/>
+          <Param header="0" name="Label" value="CLAPH41:LHEE"/>
+          <Param header="0" name="Frame" value="1359"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:06:13"/>
+          <Param header="0" name="Label" value="CLAPH41:LHEE"/>
+          <Param header="0" name="Frame" value="1310"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:06:17"/>
+          <Param header="0" name="Label" value="CLAPH41:LMETA5"/>
+          <Param header="0" name="Frame" value="1380"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline (Woltring) Filled Trajectory (All):  LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:06:23"/>
+          <Param header="0" name="Trajectory" value="LHEE"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline (Woltring) Filled Trajectory (All):  LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-11 12:06:25"/>
+          <Param header="0" name="Trajectory" value="LMETA5"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:02"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:10"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:32"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:38"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:43"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:48"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:26:51"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:27:04"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Mar-17 14:27:11"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.14.0.139696h"/>
+      <Param header="0" name="Start Date" value="2024-Jan-30 14:45:36"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:36"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="2368"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="5"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="20"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Prediction Error" value="250"/>
+          <Param header="0" name="Trajectory Startup Error" value="250"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  CLAPH41:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:45"/>
+          <Param header="0" name="Label" value="CLAPH41:C7"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:46"/>
+          <Param header="0" name="Label" value="CLAPH41:RSHO"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:46"/>
+          <Param header="0" name="Label" value="CLAPH41:LSHO"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:48"/>
+          <Param header="0" name="Label" value="CLAPH41:RELB"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:48"/>
+          <Param header="0" name="Label" value="CLAPH41:RWRA"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:49"/>
+          <Param header="0" name="Label" value="CLAPH41:RWRB"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:50"/>
+          <Param header="0" name="Label" value="CLAPH41:LELB"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:50"/>
+          <Param header="0" name="Label" value="CLAPH41:LWRA"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:51"/>
+          <Param header="0" name="Label" value="CLAPH41:LWRB"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:51"/>
+          <Param header="0" name="Label" value="CLAPH41:RASI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:52"/>
+          <Param header="0" name="Label" value="CLAPH41:LASI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:53"/>
+          <Param header="0" name="Label" value="CLAPH41:RPSI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:53"/>
+          <Param header="0" name="Label" value="CLAPH41:LPSI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:54"/>
+          <Param header="0" name="Label" value="CLAPH41:RTHI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:55"/>
+          <Param header="0" name="Label" value="CLAPH41:RCONDE"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:56"/>
+          <Param header="0" name="Label" value="CLAPH41:RCONDI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:57"/>
+          <Param header="0" name="Label" value="CLAPH41:RPER"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:57"/>
+          <Param header="0" name="Label" value="CLAPH41:RTTA"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:59"/>
+          <Param header="0" name="Label" value="CLAPH41:RMALE"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:45:59"/>
+          <Param header="0" name="Label" value="CLAPH41:RMALI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:00"/>
+          <Param header="0" name="Label" value="CLAPH41:RHEE"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:00"/>
+          <Param header="0" name="Label" value="CLAPH41:RMETA5"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:01"/>
+          <Param header="0" name="Label" value="CLAPH41:RMETA1"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:02"/>
+          <Param header="0" name="Label" value="CLAPH41:RHLX"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:03"/>
+          <Param header="0" name="Label" value="CLAPH41:LTHI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:04"/>
+          <Param header="0" name="Label" value="CLAPH41:LCONDE"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:04"/>
+          <Param header="0" name="Label" value="CLAPH41:LCONDI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:07"/>
+          <Param header="0" name="Label" value="CLAPH41:LPER"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:08"/>
+          <Param header="0" name="Label" value="CLAPH41:LTTA"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:08"/>
+          <Param header="0" name="Label" value="CLAPH41:LMALE"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:09"/>
+          <Param header="0" name="Label" value="CLAPH41:LMALI"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:09"/>
+          <Param header="0" name="Label" value="CLAPH41:LHEE"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:10"/>
+          <Param header="0" name="Label" value="CLAPH41:LMETA5"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:11"/>
+          <Param header="0" name="Label" value="CLAPH41:LMETA1"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:11"/>
+          <Param header="0" name="Label" value="CLAPH41:LHLX"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CLAPH41:RTECH" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:12"/>
+          <Param header="0" name="Label" value="CLAPH41:RTECH"/>
+          <Param header="0" name="Frame" value="605"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:18"/>
+          <Param header="0" name="Label" value="CLAPH41:LTTA"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:20"/>
+          <Param header="0" name="Label" value="CLAPH41:RASI"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:23"/>
+          <Param header="0" name="Label" value="CLAPH41:RWRA"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:26"/>
+          <Param header="0" name="Label" value="CLAPH41:LTTA"/>
+          <Param header="0" name="Frame" value="663"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:33"/>
+          <Param header="0" name="Label" value="CLAPH41:RTTA"/>
+          <Param header="0" name="Frame" value="779"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:36"/>
+          <Param header="0" name="Label" value="CLAPH41:RTTA"/>
+          <Param header="0" name="Frame" value="796"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:41"/>
+          <Param header="0" name="Label" value="CLAPH41:LTTA"/>
+          <Param header="0" name="Frame" value="818"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:50"/>
+          <Param header="0" name="Label" value="CLAPH41:LTTA"/>
+          <Param header="0" name="Frame" value="920"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:46:55"/>
+          <Param header="0" name="Label" value="CLAPH41:RPSI"/>
+          <Param header="0" name="Frame" value="973"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:01"/>
+          <Param header="0" name="Label" value="CLAPH41:RPSI"/>
+          <Param header="0" name="Frame" value="965"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:05"/>
+          <Param header="0" name="Label" value="CLAPH41:RPSI"/>
+          <Param header="0" name="Frame" value="1000"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:11"/>
+          <Param header="0" name="Label" value="CLAPH41:RCONDI"/>
+          <Param header="0" name="Frame" value="1006"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:14"/>
+          <Param header="0" name="Label" value="CLAPH41:RTTA"/>
+          <Param header="0" name="Frame" value="1021"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:27"/>
+          <Param header="0" name="Trajectory" value="LTTA"/>
+          <Param header="0" name="Donor Trajectory 1" value="LMALE"/>
+          <Param header="0" name="Donor Trajectory 2" value="LMALI"/>
+          <Param header="0" name="Donor Trajectory 3" value="LPER"/>
+          <Param header="0" name="Gaps Filled" value="Filled 4 out of 4 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory CLAPH41:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:32"/>
+          <Param header="0" name="Label" value="CLAPH41:RASI"/>
+          <Param header="0" name="Frame" value="626"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:41"/>
+          <Param header="0" name="Trajectory" value="RASI"/>
+          <Param header="0" name="Donor Trajectory 1" value="RPSI"/>
+          <Param header="0" name="Donor Trajectory 2" value="LPSI"/>
+          <Param header="0" name="Donor Trajectory 3" value="LASI"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:48"/>
+          <Param header="0" name="Trajectory" value="RCONDI"/>
+          <Param header="0" name="Donor Trajectory" value="RCONDE"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:47:57"/>
+          <Param header="0" name="Trajectory" value="RPSI"/>
+          <Param header="0" name="Donor Trajectory 1" value="LPSI"/>
+          <Param header="0" name="Donor Trajectory 2" value="RASI"/>
+          <Param header="0" name="Donor Trajectory 3" value="LASI"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:48:05"/>
+          <Param header="0" name="Trajectory" value="RTTA"/>
+          <Param header="0" name="Donor Trajectory 1" value="RMALI"/>
+          <Param header="0" name="Donor Trajectory 2" value="RMALE"/>
+          <Param header="0" name="Donor Trajectory 3" value="RPER"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:48:11"/>
+          <Param header="0" name="Trajectory" value="RWRA"/>
+          <Param header="0" name="Donor Trajectory" value="RWRB"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

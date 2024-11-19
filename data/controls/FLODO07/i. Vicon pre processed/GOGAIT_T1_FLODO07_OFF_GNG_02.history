@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="GOGAIT_T1_FLODO07_OFF_GNG_02" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Jan-21 10:45:09"/>
+    <Param header="0" name="x2d" value="GOGAIT_T1_FLODO07_OFF_GNG_02.x2d"/>
+    <Param header="0" name="x1d" value="GOGAIT_T1_FLODO07_OFF_GNG_02.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.11.0.127963h"/>
+      <Param header="0" name="Start Date" value="2021-Jul-13 12:49:00"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 12:49:00"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3130"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  FLODO07:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:33"/>
+          <Param header="0" name="Label" value="FLODO07:RHEE"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  FLODO07:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:34"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA5"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  FLODO07:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:34"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA1"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  FLODO07:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:34"/>
+          <Param header="0" name="Label" value="FLODO07:RHLX"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  FLODO07:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:37"/>
+          <Param header="0" name="Label" value="FLODO07:LHEE"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  FLODO07:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:38"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA5"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  FLODO07:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:38"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA1"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  FLODO07:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 13:03:39"/>
+          <Param header="0" name="Label" value="FLODO07:LHLX"/>
+          <Param header="0" name="Frame" value="18"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:12"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA5"/>
+          <Param header="0" name="Frame" value="934"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:14"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA1"/>
+          <Param header="0" name="Frame" value="934"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:17"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA1"/>
+          <Param header="0" name="Frame" value="934"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:23"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA1"/>
+          <Param header="0" name="Frame" value="1162"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:28"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA1"/>
+          <Param header="0" name="Frame" value="1162"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:36"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA5"/>
+          <Param header="0" name="Frame" value="1353"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:38"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA1"/>
+          <Param header="0" name="Frame" value="1353"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:43"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA1"/>
+          <Param header="0" name="Frame" value="1560"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:48"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA5"/>
+          <Param header="0" name="Frame" value="1837"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:51"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA1"/>
+          <Param header="0" name="Frame" value="1837"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:21:59"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA5"/>
+          <Param header="0" name="Frame" value="3130"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:00"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA1"/>
+          <Param header="0" name="Frame" value="3130"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:06"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA5"/>
+          <Param header="0" name="Frame" value="3130"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:08"/>
+          <Param header="0" name="Label" value="FLODO07:RMETA1"/>
+          <Param header="0" name="Frame" value="3130"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:17"/>
+          <Param header="0" name="Trajectory" value="LMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="LMETA5"/>
+          <Param header="0" name="Gaps Filled" value="Filled 4 out of 5 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:23"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA1"/>
+          <Param header="0" name="Frame" value="1728"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory FLODO07:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:29"/>
+          <Param header="0" name="Label" value="FLODO07:LMETA5"/>
+          <Param header="0" name="Frame" value="1632"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:36"/>
+          <Param header="0" name="Trajectory" value="LMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="LHLX"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:50"/>
+          <Param header="0" name="Trajectory" value="LMETA5"/>
+          <Param header="0" name="Donor Trajectory" value="LMETA1"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:22:55"/>
+          <Param header="0" name="Trajectory" value="RMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="RHLX"/>
+          <Param header="0" name="Gaps Filled" value="Filled 4 out of 4 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-13 14:23:02"/>
+          <Param header="0" name="Trajectory" value="RMETA5"/>
+          <Param header="0" name="Donor Trajectory" value="RMETA1"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:42:59"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:07"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:12"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:20"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:23"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:30"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:46"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:43:49"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Jul-26 13:44:07"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.14.0.139696h"/>
+      <Param header="0" name="Start Date" value="2024-Jan-30 16:10:50"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:50"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3130"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="5"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="20"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Prediction Error" value="250"/>
+          <Param header="0" name="Trajectory Startup Error" value="250"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:53"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="3130"/>
+          <Param header="1" name="Labeling" value=""/>
+          <Param header="0" name="Label Completeness Entrance Threshold" value="0.84999999999999998"/>
+          <Param header="0" name="Label Completeness Exit Threshold" value="0.59999999999999998"/>
+          <Param header="0" name="Booting Versus Tracking" value="0.5"/>
+          <Param header="0" name="Tracking Quality" value="0"/>
+          <Param header="0" name="Smoothing Factor" value="0.01"/>
+          <Param header="0" name="Single pass" value="Yes"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:54"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:55"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:55"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:55"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:55"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Data Processing" notes="">
+      <OperationSubType name="Run MatLab Operation" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 16:10:55"/>
+          <Param header="0" name="Matlab script file" value="C:/Users/marco.romanato/OneDrive - ICM/Documents/MATLAB/PredictMissungMarkers/GapFillingAlgorithm.m"/>
+          <Param header="0" name="Script arguments" value=""/>
+          <Param header="0" name="Add path to search" value="Yes"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Matlab Script Execution Succeeded" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

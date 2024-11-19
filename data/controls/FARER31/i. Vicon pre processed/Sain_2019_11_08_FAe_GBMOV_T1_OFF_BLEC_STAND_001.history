@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="Sain_2019_11_08_FAe_GBMOV_T1_OFF_BLEC_STAND_001" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Nov-08 10:37:51"/>
+    <Param header="0" name="x2d" value="Sain_2019_11_08_FAe_GBMOV_T1_OFF_BLEC_STAND_001.x2d"/>
+    <Param header="0" name="x1d" value="Sain_2019_11_08_FAe_GBMOV_T1_OFF_BLEC_STAND_001.x1d"/>
+  </Parameters>
+
+</Trial>

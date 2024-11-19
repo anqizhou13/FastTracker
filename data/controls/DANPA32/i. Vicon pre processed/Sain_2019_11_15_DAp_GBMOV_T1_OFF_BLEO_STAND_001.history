@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="Sain_2019_11_15_DAp_GBMOV_T1_OFF_BLEO_STAND_001" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Nov-15 10:20:44"/>
+    <Param header="0" name="x2d" value="Sain_2019_11_15_DAp_GBMOV_T1_OFF_BLEO_STAND_001.x2d"/>
+    <Param header="0" name="x1d" value="Sain_2019_11_15_DAp_GBMOV_T1_OFF_BLEO_STAND_001.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.14.0.139696h"/>
+      <Param header="0" name="Start Date" value="2024-Jan-30 14:52:40"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:40"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="24759"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="5"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="20"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Prediction Error" value="250"/>
+          <Param header="0" name="Trajectory Startup Error" value="250"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:43"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:44"/>
+          <Param header="0" name="Label" value="DANPA32:RSHO"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:44"/>
+          <Param header="0" name="Label" value="DANPA32:LSHO"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:45"/>
+          <Param header="0" name="Label" value="DANPA32:RELB"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:46"/>
+          <Param header="0" name="Label" value="DANPA32:RWRA"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:47"/>
+          <Param header="0" name="Label" value="DANPA32:RWRB"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:47"/>
+          <Param header="0" name="Label" value="DANPA32:LELB"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:48"/>
+          <Param header="0" name="Label" value="DANPA32:LWRA"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:48"/>
+          <Param header="0" name="Label" value="DANPA32:LWRB"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:49"/>
+          <Param header="0" name="Label" value="DANPA32:RPSI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:50"/>
+          <Param header="0" name="Label" value="DANPA32:LPSI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:51"/>
+          <Param header="0" name="Label" value="DANPA32:RASI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:51"/>
+          <Param header="0" name="Label" value="DANPA32:LASI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:54"/>
+          <Param header="0" name="Label" value="DANPA32:RTHI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:54"/>
+          <Param header="0" name="Label" value="DANPA32:RCONDE"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:55"/>
+          <Param header="0" name="Label" value="DANPA32:RCONDI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:56"/>
+          <Param header="0" name="Label" value="DANPA32:RPER"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:52:56"/>
+          <Param header="0" name="Label" value="DANPA32:RTTA"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RTECH" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:00"/>
+          <Param header="0" name="Label" value="DANPA32:RTECH"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:01"/>
+          <Param header="0" name="Label" value="DANPA32:RMALE"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:01"/>
+          <Param header="0" name="Label" value="DANPA32:RMALI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:02"/>
+          <Param header="0" name="Label" value="DANPA32:RHEE"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:03"/>
+          <Param header="0" name="Label" value="DANPA32:RMETA5"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:04"/>
+          <Param header="0" name="Label" value="DANPA32:RMETA1"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:04"/>
+          <Param header="0" name="Label" value="DANPA32:RHLX"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:05"/>
+          <Param header="0" name="Label" value="DANPA32:LTHI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:06"/>
+          <Param header="0" name="Label" value="DANPA32:LCONDE"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:06"/>
+          <Param header="0" name="Label" value="DANPA32:LCONDI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:07"/>
+          <Param header="0" name="Label" value="DANPA32:LPER"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:08"/>
+          <Param header="0" name="Label" value="DANPA32:LTTA"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:09"/>
+          <Param header="0" name="Label" value="DANPA32:LMALE"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:11"/>
+          <Param header="0" name="Label" value="DANPA32:LMALI"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:11"/>
+          <Param header="0" name="Label" value="DANPA32:LHEE"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:12"/>
+          <Param header="0" name="Label" value="DANPA32:LMETA5"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:13"/>
+          <Param header="0" name="Label" value="DANPA32:LMETA1"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  DANPA32:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:13"/>
+          <Param header="0" name="Label" value="DANPA32:LHLX"/>
+          <Param header="0" name="Frame" value="635"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:43"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1519"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:47"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1465"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:53:53"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1461"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:54:07"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1697"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:54:14"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1632"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:54:18"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1600"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:54:24"/>
+          <Param header="0" name="Trajectory" value="C7"/>
+          <Param header="0" name="Frame" value="1584"/>
+          <Param header="0" name="Gap Start Frame" value="1568"/>
+          <Param header="0" name="Gap End Frame" value="1600"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:54:35"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1362"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory DANPA32:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-30 14:54:43"/>
+          <Param header="0" name="Label" value="DANPA32:C7"/>
+          <Param header="0" name="Frame" value="1269"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

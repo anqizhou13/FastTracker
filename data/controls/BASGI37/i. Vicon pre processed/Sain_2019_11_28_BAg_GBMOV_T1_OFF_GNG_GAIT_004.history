@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="Sain_2019_11_28_BAg_GBMOV_T1_OFF_GNG_GAIT_004" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Nov-28 16:51:57"/>
+    <Param header="0" name="x2d" value="Sain_2019_11_28_BAg_GBMOV_T1_OFF_GNG_GAIT_004.x2d"/>
+    <Param header="0" name="x1d" value="Sain_2019_11_28_BAg_GBMOV_T1_OFF_GNG_GAIT_004.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.11.0.127963h"/>
+      <Param header="0" name="Start Date" value="2021-Feb-22 10:36:17"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:17"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="4076"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  BASGI37:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:29"/>
+          <Param header="0" name="Label" value="BASGI37:C7"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:29"/>
+          <Param header="0" name="Label" value="BASGI37:RSHO"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:29"/>
+          <Param header="0" name="Label" value="BASGI37:LSHO"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:30"/>
+          <Param header="0" name="Label" value="BASGI37:RELB"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:31"/>
+          <Param header="0" name="Label" value="BASGI37:RWRA"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:31"/>
+          <Param header="0" name="Label" value="BASGI37:RWRB"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:32"/>
+          <Param header="0" name="Label" value="BASGI37:LELB"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:33"/>
+          <Param header="0" name="Label" value="BASGI37:LWRA"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:34"/>
+          <Param header="0" name="Label" value="BASGI37:LWRB"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:34"/>
+          <Param header="0" name="Label" value="BASGI37:RPSI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:35"/>
+          <Param header="0" name="Label" value="BASGI37:LPSI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:35"/>
+          <Param header="0" name="Label" value="BASGI37:RASI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:36"/>
+          <Param header="0" name="Label" value="BASGI37:LASI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:36"/>
+          <Param header="0" name="Label" value="BASGI37:RTHI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:37"/>
+          <Param header="0" name="Label" value="BASGI37:RCONDE"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:37"/>
+          <Param header="0" name="Label" value="BASGI37:RCONDI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:38"/>
+          <Param header="0" name="Label" value="BASGI37:RPER"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:38"/>
+          <Param header="0" name="Label" value="BASGI37:RTTA"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RTECH" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:39"/>
+          <Param header="0" name="Label" value="BASGI37:RTECH"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:40"/>
+          <Param header="0" name="Label" value="BASGI37:RMALE"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:40"/>
+          <Param header="0" name="Label" value="BASGI37:RMALI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:41"/>
+          <Param header="0" name="Label" value="BASGI37:RHEE"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:42"/>
+          <Param header="0" name="Label" value="BASGI37:RMETA5"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:42"/>
+          <Param header="0" name="Label" value="BASGI37:RMETA1"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:43"/>
+          <Param header="0" name="Label" value="BASGI37:RHLX"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:44"/>
+          <Param header="0" name="Label" value="BASGI37:LTHI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:44"/>
+          <Param header="0" name="Label" value="BASGI37:LCONDE"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:45"/>
+          <Param header="0" name="Label" value="BASGI37:LCONDI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:45"/>
+          <Param header="0" name="Label" value="BASGI37:LPER"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:46"/>
+          <Param header="0" name="Label" value="BASGI37:LTTA"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:47"/>
+          <Param header="0" name="Label" value="BASGI37:LMALE"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:47"/>
+          <Param header="0" name="Label" value="BASGI37:LMALI"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:48"/>
+          <Param header="0" name="Label" value="BASGI37:LHEE"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:49"/>
+          <Param header="0" name="Label" value="BASGI37:LMETA5"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:49"/>
+          <Param header="0" name="Label" value="BASGI37:LMETA1"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:36:50"/>
+          <Param header="0" name="Label" value="BASGI37:LHLX"/>
+          <Param header="0" name="Frame" value="97"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 10:37:01"/>
+          <Param header="0" name="Label" value="BASGI37:RMALE"/>
+          <Param header="0" name="Frame" value="1389"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:18:43"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:18:59"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:19:05"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:19:21"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:19:26"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:19:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:19:53"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Feb-22 11:20:20"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.14.0.139696h"/>
+      <Param header="0" name="Start Date" value="2024-Jan-29 15:41:37"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:37"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="4076"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="5"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="20"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Prediction Error" value="250"/>
+          <Param header="0" name="Trajectory Startup Error" value="250"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  BASGI37:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:38"/>
+          <Param header="0" name="Label" value="BASGI37:C7"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:39"/>
+          <Param header="0" name="Label" value="BASGI37:RSHO"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:39"/>
+          <Param header="0" name="Label" value="BASGI37:LSHO"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:40"/>
+          <Param header="0" name="Label" value="BASGI37:RELB"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:41"/>
+          <Param header="0" name="Label" value="BASGI37:RWRA"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:41"/>
+          <Param header="0" name="Label" value="BASGI37:RWRB"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:42"/>
+          <Param header="0" name="Label" value="BASGI37:LELB"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:42"/>
+          <Param header="0" name="Label" value="BASGI37:LWRA"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:43"/>
+          <Param header="0" name="Label" value="BASGI37:LWRB"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:43"/>
+          <Param header="0" name="Label" value="BASGI37:RASI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:44"/>
+          <Param header="0" name="Label" value="BASGI37:LASI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:44"/>
+          <Param header="0" name="Label" value="BASGI37:RPSI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:45"/>
+          <Param header="0" name="Label" value="BASGI37:LPSI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:48"/>
+          <Param header="0" name="Label" value="BASGI37:RTHI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:49"/>
+          <Param header="0" name="Label" value="BASGI37:RCONDE"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:50"/>
+          <Param header="0" name="Label" value="BASGI37:RCONDI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:50"/>
+          <Param header="0" name="Label" value="BASGI37:RPER"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:51"/>
+          <Param header="0" name="Label" value="BASGI37:RTTA"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:51"/>
+          <Param header="0" name="Label" value="BASGI37:RMALE"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:55"/>
+          <Param header="0" name="Label" value="BASGI37:RMALI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:55"/>
+          <Param header="0" name="Label" value="BASGI37:RHEE"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:56"/>
+          <Param header="0" name="Label" value="BASGI37:RMETA5"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:56"/>
+          <Param header="0" name="Label" value="BASGI37:RMETA1"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:57"/>
+          <Param header="0" name="Label" value="BASGI37:RHLX"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:58"/>
+          <Param header="0" name="Label" value="BASGI37:LTHI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:58"/>
+          <Param header="0" name="Label" value="BASGI37:LCONDE"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:59"/>
+          <Param header="0" name="Label" value="BASGI37:LCONDI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:41:59"/>
+          <Param header="0" name="Label" value="BASGI37:LPER"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:00"/>
+          <Param header="0" name="Label" value="BASGI37:LTTA"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:01"/>
+          <Param header="0" name="Label" value="BASGI37:LMALE"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:02"/>
+          <Param header="0" name="Label" value="BASGI37:LMALI"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:02"/>
+          <Param header="0" name="Label" value="BASGI37:LHEE"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:03"/>
+          <Param header="0" name="Label" value="BASGI37:LMETA5"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:04"/>
+          <Param header="0" name="Label" value="BASGI37:LMETA1"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:04"/>
+          <Param header="0" name="Label" value="BASGI37:LHLX"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BASGI37:RTECH" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:06"/>
+          <Param header="0" name="Label" value="BASGI37:RTECH"/>
+          <Param header="0" name="Frame" value="744"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:10"/>
+          <Param header="0" name="Label" value="BASGI37:RASI"/>
+          <Param header="0" name="Frame" value="758"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:13"/>
+          <Param header="0" name="Label" value="BASGI37:RCONDI"/>
+          <Param header="0" name="Frame" value="784"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:17"/>
+          <Param header="0" name="Label" value="BASGI37:RASI"/>
+          <Param header="0" name="Frame" value="805"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:19"/>
+          <Param header="0" name="Label" value="BASGI37:LASI"/>
+          <Param header="0" name="Frame" value="805"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:21"/>
+          <Param header="0" name="Label" value="BASGI37:LTTA"/>
+          <Param header="0" name="Frame" value="805"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:24"/>
+          <Param header="0" name="Label" value="BASGI37:LASI"/>
+          <Param header="0" name="Frame" value="834"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:27"/>
+          <Param header="0" name="Label" value="BASGI37:RCONDI"/>
+          <Param header="0" name="Frame" value="864"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:30"/>
+          <Param header="0" name="Label" value="BASGI37:LASI"/>
+          <Param header="0" name="Frame" value="891"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:36"/>
+          <Param header="0" name="Label" value="BASGI37:LCONDI"/>
+          <Param header="0" name="Frame" value="906"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:45"/>
+          <Param header="0" name="Label" value="BASGI37:C7"/>
+          <Param header="0" name="Frame" value="1127"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:48"/>
+          <Param header="0" name="Label" value="BASGI37:C7"/>
+          <Param header="0" name="Frame" value="1157"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:51"/>
+          <Param header="0" name="Label" value="BASGI37:C7"/>
+          <Param header="0" name="Frame" value="1186"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:53"/>
+          <Param header="0" name="Label" value="BASGI37:RASI"/>
+          <Param header="0" name="Frame" value="1186"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:56"/>
+          <Param header="0" name="Label" value="BASGI37:RMETA1"/>
+          <Param header="0" name="Frame" value="1198"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:42:59"/>
+          <Param header="0" name="Label" value="BASGI37:RTTA"/>
+          <Param header="0" name="Frame" value="1198"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:04"/>
+          <Param header="0" name="Label" value="BASGI37:LTTA"/>
+          <Param header="0" name="Frame" value="1198"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:18"/>
+          <Param header="0" name="Label" value="BASGI37:C7"/>
+          <Param header="0" name="Frame" value="1115"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BASGI37:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:26"/>
+          <Param header="0" name="Label" value="BASGI37:C7"/>
+          <Param header="0" name="Frame" value="1113"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Cyclic Filled Trajectory( All ):  C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:30"/>
+          <Param header="0" name="Trajectory" value="C7"/>
+          <Param header="0" name="Gaps Filled" value="Filled 5 out of 5 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:38"/>
+          <Param header="0" name="Trajectory" value="LASI"/>
+          <Param header="0" name="Donor Trajectory 1" value="LPSI"/>
+          <Param header="0" name="Donor Trajectory 2" value="RPSI"/>
+          <Param header="0" name="Donor Trajectory 3" value="RASI"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:42"/>
+          <Param header="0" name="Trajectory" value="LCONDI"/>
+          <Param header="0" name="Frame" value="902"/>
+          <Param header="0" name="Gap Start Frame" value="901"/>
+          <Param header="0" name="Gap End Frame" value="903"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory:  LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:50"/>
+          <Param header="0" name="Trajectory" value="LTTA"/>
+          <Param header="0" name="Donor Trajectory 1" value="LMALI"/>
+          <Param header="0" name="Donor Trajectory 2" value="LPER"/>
+          <Param header="0" name="Donor Trajectory 3" value="LMALE"/>
+          <Param header="0" name="Frame" value="792"/>
+          <Param header="0" name="Gap Start Frame" value="790"/>
+          <Param header="0" name="Gap End Frame" value="794"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:43:52"/>
+          <Param header="0" name="Trajectory" value="LTTA"/>
+          <Param header="0" name="Donor Trajectory 1" value="LMALI"/>
+          <Param header="0" name="Donor Trajectory 2" value="LPER"/>
+          <Param header="0" name="Donor Trajectory 3" value="LMALE"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:44:01"/>
+          <Param header="0" name="Trajectory" value="RASI"/>
+          <Param header="0" name="Donor Trajectory 1" value="RPSI"/>
+          <Param header="0" name="Donor Trajectory 2" value="LPSI"/>
+          <Param header="0" name="Donor Trajectory 3" value="LASI"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:44:06"/>
+          <Param header="0" name="Trajectory" value="RCONDI"/>
+          <Param header="0" name="Donor Trajectory" value="RCONDE"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:44:16"/>
+          <Param header="0" name="Trajectory" value="RMETA1"/>
+          <Param header="0" name="Donor Trajectory 1" value="RHEE"/>
+          <Param header="0" name="Donor Trajectory 2" value="RMETA5"/>
+          <Param header="0" name="Donor Trajectory 3" value="RHLX"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:44:24"/>
+          <Param header="0" name="Trajectory" value="RTTA"/>
+          <Param header="0" name="Donor Trajectory 1" value="RMALI"/>
+          <Param header="0" name="Donor Trajectory 2" value="RMALE"/>
+          <Param header="0" name="Donor Trajectory 3" value="RPER"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Data Processing" notes="">
+      <OperationSubType name="Run MatLab Operation" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 15:45:01"/>
+          <Param header="0" name="Matlab script file" value="C:/Users/marco.romanato/OneDrive - ICM/Documents/MATLAB/PredictMissungMarkers/GapFillingAlgorithm.m"/>
+          <Param header="0" name="Script arguments" value=""/>
+          <Param header="0" name="Add path to search" value="Yes"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Matlab Script Execution Succeeded" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

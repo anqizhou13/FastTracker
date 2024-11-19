@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="GOGAIT_T1_BIBTH15_OFF_GNG_10" notes="">
+
+  <Parameters>
+    <Param header="0" name="Capture Date" value="2019-Mar-06 15:47:41"/>
+    <Param header="0" name="x2d" value="GOGAIT_T1_BIBTH15_OFF_GNG_10.x2d"/>
+    <Param header="0" name="x1d" value="GOGAIT_T1_BIBTH15_OFF_GNG_10.x1d"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.11.0.127963h"/>
+      <Param header="0" name="Start Date" value="2021-Aug-30 14:33:30"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-30 14:33:30"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="2838"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="1.5"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="14"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Startup Error" value="150"/>
+          <Param header="0" name="Trajectory Prediction Error" value="150"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  BIBTH15:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:20"/>
+          <Param header="0" name="Label" value="BIBTH15:RHEE"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:20"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA5"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:21"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:21"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:24"/>
+          <Param header="0" name="Label" value="BIBTH15:LHEE"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:24"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA5"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:25"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:25"/>
+          <Param header="0" name="Label" value="BIBTH15:LHLX"/>
+          <Param header="0" name="Frame" value="729"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:35"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="871"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:37"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="871"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:43"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="944"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:45"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="944"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:49"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA5"/>
+          <Param header="0" name="Frame" value="1039"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:51"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="1039"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:51:53"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1039"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:02"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1178"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:06"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="1178"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:08"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="1178"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:18"/>
+          <Param header="0" name="Label" value="BIBTH15:RHEE"/>
+          <Param header="0" name="Frame" value="1578"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:22"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="1578"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:23"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="1578"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:28"/>
+          <Param header="0" name="Label" value="BIBTH15:LHEE"/>
+          <Param header="0" name="Frame" value="1634"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:30"/>
+          <Param header="0" name="Label" value="BIBTH15:LHLX"/>
+          <Param header="0" name="Frame" value="1634"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:34"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA5"/>
+          <Param header="0" name="Frame" value="1634"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:39"/>
+          <Param header="0" name="Label" value="BIBTH15:RHEE"/>
+          <Param header="0" name="Frame" value="1692"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:42"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="1692"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:47"/>
+          <Param header="0" name="Label" value="BIBTH15:LHEE"/>
+          <Param header="0" name="Frame" value="1826"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:50"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1826"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:52:56"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="1913"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:01"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="2022"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:06"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA5"/>
+          <Param header="0" name="Frame" value="2838"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:11"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="2838"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:17"/>
+          <Param header="0" name="Label" value="BIBTH15:RHEE"/>
+          <Param header="0" name="Frame" value="2838"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:27"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="1005"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:31"/>
+          <Param header="0" name="Trajectory" value="RMETA5"/>
+          <Param header="0" name="Donor Trajectory" value="RHLX"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:40"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="793"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:45"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="748"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:51"/>
+          <Param header="0" name="Trajectory" value="RMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="RMETA5"/>
+          <Param header="0" name="Gaps Filled" value="Filled 10 out of 10 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:53:56"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="924"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:03"/>
+          <Param header="0" name="Trajectory" value="RHLX"/>
+          <Param header="0" name="Donor Trajectory" value="RMETA1"/>
+          <Param header="0" name="Gaps Filled" value="Filled 4 out of 5 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:07"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="2697"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:13"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="2581"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:19"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="2573"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:23"/>
+          <Param header="0" name="Trajectory" value="RHLX"/>
+          <Param header="0" name="Donor Trajectory" value="RMETA5"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:28"/>
+          <Param header="0" name="Trajectory" value="RHEE"/>
+          <Param header="0" name="Donor Trajectory" value="RMETA1"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:47"/>
+          <Param header="0" name="Trajectory" value="LMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="LMETA5"/>
+          <Param header="0" name="Gaps Filled" value="Filled 4 out of 5 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:56"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1503"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:54:58"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA5"/>
+          <Param header="0" name="Frame" value="1503"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:55:03"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1338"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:55:29"/>
+          <Param header="0" name="Trajectory" value="LHLX"/>
+          <Param header="0" name="Donor Trajectory" value="LHEE"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:55:36"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1284"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:55:55"/>
+          <Param header="0" name="Label" value="BIBTH15:LHEE"/>
+          <Param header="0" name="Frame" value="1533"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:16"/>
+          <Param header="0" name="Label" value="BIBTH15:LHEE"/>
+          <Param header="0" name="Frame" value="1511"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:22"/>
+          <Param header="0" name="Trajectory" value="LHEE"/>
+          <Param header="0" name="Donor Trajectory" value="LMETA5"/>
+          <Param header="0" name="Gaps Filled" value="Filled 4 out of 4 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:27"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1228"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:32"/>
+          <Param header="0" name="Trajectory" value="LMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="LHLX"/>
+          <Param header="0" name="Gaps Filled" value="Filled 5 out of 5 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:38"/>
+          <Param header="0" name="Trajectory" value="LMETA5"/>
+          <Param header="0" name="Donor Trajectory" value="LMETA1"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:43"/>
+          <Param header="0" name="Trajectory" value="RMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="RMETA5"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:48"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="2344"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:56:54"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="2224"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Aug-31 13:57:00"/>
+          <Param header="0" name="Trajectory" value="LMETA1"/>
+          <Param header="0" name="Donor Trajectory" value="LMETA5"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:08:58"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:03"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:06"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:12"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:15"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:22"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:24"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:28"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:32"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Add Event" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2021-Sep-13 15:09:49"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.14.0.139696h"/>
+      <Param header="0" name="Start Date" value="2024-Jan-29 18:34:49"/>
+    </Parameters>
+    <OperationType name="Core Processing" notes="">
+      <OperationSubType name="Reconstruct" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:49"/>
+          <Param header="1" name="Frame Range" value=""/>
+          <Param header="0" name="First Frame" value="1"/>
+          <Param header="0" name="Last Frame" value="2838"/>
+          <Param header="1" name="Grayscale Circle Fitting" value=""/>
+          <Param header="0" name="Enable" value="Yes"/>
+          <Param header="0" name="Circularity Threshold Tweak" value="0"/>
+          <Param header="1" name="Reconstruction" value=""/>
+          <Param header="0" name="3D Predictions" value="Yes"/>
+          <Param header="0" name="Environmental Drift Tolerance" value="5"/>
+          <Param header="0" name="Minimum Centroid Radius" value="0"/>
+          <Param header="0" name="Maximum Centroid Radius" value="50"/>
+          <Param header="0" name="Minimum Reconstruction Radius" value="0"/>
+          <Param header="0" name="Maximum Reconstruction Radius" value="1000"/>
+          <Param header="0" name="Minimum Cameras to Start Trajectory" value="3"/>
+          <Param header="0" name="Minimum Cameras to Continue Trajectory" value="2"/>
+          <Param header="0" name="Reconstruction Minimum Separation" value="20"/>
+          <Param header="0" name="Volume Min X" value="-100000"/>
+          <Param header="0" name="Volume Min Y" value="-100000"/>
+          <Param header="0" name="Volume Min Z" value="-100000"/>
+          <Param header="0" name="Volume Max X" value="100000"/>
+          <Param header="0" name="Volume Max Y" value="100000"/>
+          <Param header="0" name="Volume Max Z" value="100000"/>
+          <Param header="1" name="Trajectory Tracking" value=""/>
+          <Param header="0" name="Trajectory Prediction Error" value="250"/>
+          <Param header="0" name="Trajectory Startup Error" value="250"/>
+          <Param header="0" name="Max Trajectory Length to Delete" value="0"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  BIBTH15:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:53"/>
+          <Param header="0" name="Label" value="BIBTH15:RSHO"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:54"/>
+          <Param header="0" name="Label" value="BIBTH15:LSHO"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:57"/>
+          <Param header="0" name="Label" value="BIBTH15:RWRA"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:57"/>
+          <Param header="0" name="Label" value="BIBTH15:RWRB"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:58"/>
+          <Param header="0" name="Label" value="BIBTH15:LELB"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:58"/>
+          <Param header="0" name="Label" value="BIBTH15:LWRA"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:34:59"/>
+          <Param header="0" name="Label" value="BIBTH15:LWRB"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:00"/>
+          <Param header="0" name="Label" value="BIBTH15:RASI"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LASI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:00"/>
+          <Param header="0" name="Label" value="BIBTH15:LASI"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:01"/>
+          <Param header="0" name="Label" value="BIBTH15:RPSI"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LPSI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:01"/>
+          <Param header="0" name="Label" value="BIBTH15:LPSI"/>
+          <Param header="0" name="Frame" value="637"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:03"/>
+          <Param header="0" name="Label" value="BIBTH15:RTHI"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:04"/>
+          <Param header="0" name="Label" value="BIBTH15:RCONDE"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:04"/>
+          <Param header="0" name="Label" value="BIBTH15:RCONDI"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:05"/>
+          <Param header="0" name="Label" value="BIBTH15:RPER"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:06"/>
+          <Param header="0" name="Label" value="BIBTH15:RTTA"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:07"/>
+          <Param header="0" name="Label" value="BIBTH15:RMALE"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:07"/>
+          <Param header="0" name="Label" value="BIBTH15:RMALI"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:08"/>
+          <Param header="0" name="Label" value="BIBTH15:RHEE"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:08"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA5"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:09"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:09"/>
+          <Param header="0" name="Label" value="BIBTH15:RHLX"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LTHI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:11"/>
+          <Param header="0" name="Label" value="BIBTH15:LTHI"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LCONDE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:11"/>
+          <Param header="0" name="Label" value="BIBTH15:LCONDE"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:12"/>
+          <Param header="0" name="Label" value="BIBTH15:LCONDI"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LPER" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:13"/>
+          <Param header="0" name="Label" value="BIBTH15:LPER"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:13"/>
+          <Param header="0" name="Label" value="BIBTH15:LTTA"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LMALE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:15"/>
+          <Param header="0" name="Label" value="BIBTH15:LMALE"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LMALI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:15"/>
+          <Param header="0" name="Label" value="BIBTH15:LMALI"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:16"/>
+          <Param header="0" name="Label" value="BIBTH15:LHEE"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:17"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA5"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:18"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  BIBTH15:LHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:18"/>
+          <Param header="0" name="Label" value="BIBTH15:LHLX"/>
+          <Param header="0" name="Frame" value="638"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:23"/>
+          <Param header="0" name="Label" value="BIBTH15:RTTA"/>
+          <Param header="0" name="Frame" value="645"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RELB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:27"/>
+          <Param header="0" name="Label" value="BIBTH15:RELB"/>
+          <Param header="0" name="Frame" value="687"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:31"/>
+          <Param header="0" name="Label" value="BIBTH15:RCONDI"/>
+          <Param header="0" name="Frame" value="687"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:33"/>
+          <Param header="0" name="Label" value="BIBTH15:LWRA"/>
+          <Param header="0" name="Frame" value="689"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:37"/>
+          <Param header="0" name="Label" value="BIBTH15:C7"/>
+          <Param header="0" name="Frame" value="711"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:39"/>
+          <Param header="0" name="Label" value="BIBTH15:RCONDI"/>
+          <Param header="0" name="Frame" value="711"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:43"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="711"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:47"/>
+          <Param header="0" name="Label" value="BIBTH15:C7"/>
+          <Param header="0" name="Frame" value="745"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:54"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="758"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:35:56"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="758"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:01"/>
+          <Param header="0" name="Label" value="BIBTH15:LCONDI"/>
+          <Param header="0" name="Frame" value="798"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:05"/>
+          <Param header="0" name="Label" value="BIBTH15:RCONDI"/>
+          <Param header="0" name="Frame" value="822"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:13"/>
+          <Param header="0" name="Label" value="BIBTH15:C7"/>
+          <Param header="0" name="Frame" value="934"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:15"/>
+          <Param header="0" name="Label" value="BIBTH15:RMETA1"/>
+          <Param header="0" name="Frame" value="934"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:19"/>
+          <Param header="0" name="Label" value="BIBTH15:LCONDI"/>
+          <Param header="0" name="Frame" value="957"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:25"/>
+          <Param header="0" name="Label" value="BIBTH15:RCONDI"/>
+          <Param header="0" name="Frame" value="1030"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:28"/>
+          <Param header="0" name="Label" value="BIBTH15:LTTA"/>
+          <Param header="0" name="Frame" value="1030"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:31"/>
+          <Param header="0" name="Label" value="BIBTH15:LTTA"/>
+          <Param header="0" name="Frame" value="1043"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:33"/>
+          <Param header="0" name="Label" value="BIBTH15:LCONDI"/>
+          <Param header="0" name="Frame" value="1046"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:37"/>
+          <Param header="0" name="Label" value="BIBTH15:LMETA1"/>
+          <Param header="0" name="Frame" value="1061"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory BIBTH15:C7" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:41"/>
+          <Param header="0" name="Label" value="BIBTH15:C7"/>
+          <Param header="0" name="Frame" value="1105"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:36:54"/>
+          <Param header="0" name="Trajectory" value="RTTA"/>
+          <Param header="0" name="Donor Trajectory 1" value="RPER"/>
+          <Param header="0" name="Donor Trajectory 2" value="RMALE"/>
+          <Param header="0" name="Donor Trajectory 3" value="RMALI"/>
+          <Param header="0" name="Gaps Filled" value="Filled 1 out of 1 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:03"/>
+          <Param header="0" name="Trajectory" value="RMETA1"/>
+          <Param header="0" name="Donor Trajectory 1" value="RHEE"/>
+          <Param header="0" name="Donor Trajectory 2" value="RMETA5"/>
+          <Param header="0" name="Donor Trajectory 3" value="RHLX"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  RCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:09"/>
+          <Param header="0" name="Trajectory" value="RCONDI"/>
+          <Param header="0" name="Donor Trajectory" value="RCONDE"/>
+          <Param header="0" name="Gaps Filled" value="Filled 4 out of 4 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Spline Interpolation Filled Trajectory:  LWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:13"/>
+          <Param header="0" name="Trajectory" value="LWRA"/>
+          <Param header="0" name="Frame" value="687"/>
+          <Param header="0" name="Gap Start Frame" value="686"/>
+          <Param header="0" name="Gap End Frame" value="688"/>
+          <Param header="0" name="Max Gap Length" value="100"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  LTTA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:21"/>
+          <Param header="0" name="Trajectory" value="LTTA"/>
+          <Param header="0" name="Donor Trajectory 1" value="LMALE"/>
+          <Param header="0" name="Donor Trajectory 2" value="LMALI"/>
+          <Param header="0" name="Donor Trajectory 3" value="LPER"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Rigid Body Filled Trajectory( All ):  LMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:30"/>
+          <Param header="0" name="Trajectory" value="LMETA1"/>
+          <Param header="0" name="Donor Trajectory 1" value="LMETA5"/>
+          <Param header="0" name="Donor Trajectory 2" value="LHLX"/>
+          <Param header="0" name="Donor Trajectory 3" value="LHEE"/>
+          <Param header="0" name="Gaps Filled" value="Filled 2 out of 2 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Copy Pattern Filled Trajectory (All):  LCONDI" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:36"/>
+          <Param header="0" name="Trajectory" value="LCONDI"/>
+          <Param header="0" name="Donor Trajectory" value="LCONDE"/>
+          <Param header="0" name="Gaps Filled" value="Filled 3 out of 3 gaps"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:41"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+    <OperationType name="Data Processing" notes="">
+      <OperationSubType name="Run MatLab Operation" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-29 18:37:42"/>
+          <Param header="0" name="Matlab script file" value="C:/Users/marco.romanato/OneDrive - ICM/Documents/MATLAB/PredictMissungMarkers/GapFillingAlgorithm.m"/>
+          <Param header="0" name="Script arguments" value=""/>
+          <Param header="0" name="Add path to search" value="Yes"/>
+          <Param header="1" name="Log Output" value=""/>
+          <Param header="0" name="Matlab Script Execution Succeeded" value=""/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>
