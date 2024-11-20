@@ -28,15 +28,13 @@ def batch_process_c3d(data_folder):
 
         with open(file, 'rb') as f:
             reader = c3d.Reader(f)
-            
+        
             # Initialize data structures to store extracted data
             markers = []
-            frame_numbers = []
 
             # Iterate over frames
             #for i, (points, analog) in enumerate(reader.read_frames()):
             for i, points in enumerate(reader.read_frames()):
-                frame_numbers.append(i)
                 markers.append(points[1][:,:3])  # Extract 3D positions (x, y, z), which are the first three values stored in the 1st tuple position
                 #analog_data.append(analog)    # Extract analog signals (e.g., force plates)
 
@@ -63,7 +61,6 @@ def batch_process_c3d(data_folder):
 
             
             # store the raw data into lists
-            frames.append(frame_numbers)
             labels.append(reader.point_labels[marker_indices])
             time_series_raw.append(markers)
 
@@ -94,4 +91,4 @@ def batch_process_c3d(data_folder):
             endTime = time.time()
             runTime = endTime - startTime
             print(" File processed, runtime {} seconds ".format(runTime))
-    return frames, labels, time_series_raw, time_series_ego, time_series_ego_norm, bad_files
+    return labels, time_series_raw, time_series_ego, time_series_ego_norm, bad_files
