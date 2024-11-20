@@ -94,5 +94,4 @@ def batch_process_c3d(data_folder):
             endTime = time.time()
             runTime = endTime - startTime
             print(" File processed, runtime {} seconds ".format(runTime))
-            
     return frames, labels, time_series_raw, time_series_ego, time_series_ego_norm, bad_files
