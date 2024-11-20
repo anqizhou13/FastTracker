@@ -10,8 +10,7 @@ def batch_process_c3d(data_folder):
 
     # Search for files with 'GAIT' in their name and '.c3d' extension, recursively
     files = glob.glob(f'{data_folder}/**/*GAIT*.c3d', recursive=True)
-
-    frames = []
+    
     labels = []
     time_series_raw = []
     time_series_ego = []
@@ -24,10 +23,14 @@ def batch_process_c3d(data_folder):
         print('Processing {} of {} files...'.format(n,len(files)))
         # for each file
         # time each iteration
-        
 
         with open(file, 'rb') as f:
             reader = c3d.Reader(f)
+
+            for frame in reader.read_frames():
+                for point in frame['points']:
+                    # Ensure that values are within the expected range for uint16
+                    point = np.clip(point, 0, 65535)  # Clip values to prevent overflow
         
             # Initialize data structures to store extracted data
             markers = []
