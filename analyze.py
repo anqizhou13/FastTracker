@@ -59,7 +59,7 @@ def batch_process_c3d(data_folder):
 
             # clean the data a bit--jumping 0 values due to brief loss of markers, 
             # let's replace those 0s with mean of 1 frame before and 1 frame after
-            markers = tools.replace_zeros_with_neighbors_mean(markers,1)
+            markers = minitools.replace_zeros_with_neighbors_mean(markers,1)
 
             
             # store the raw data into lists
