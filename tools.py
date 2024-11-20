@@ -9,15 +9,13 @@ def replace_zeros_with_neighbors_mean(arr, win):
     return arr
 
 def batch_process_c3d(data_folder):
+
     import c3d 
     import numpy as np
-    import matplotlib.pyplot as plt
     import math
     import glob
     import os
     import time
-    
-    data_folder = '/Users/anqizhou/FastTrack/data'
 
     # Search for files with 'GAIT' in their name and '.c3d' extension, recursively
     files = glob.glob(f'{data_folder}/**/*GAIT*.c3d', recursive=True)
@@ -105,3 +103,5 @@ def batch_process_c3d(data_folder):
             endTime = time.time()
             runTime = endTime - startTime
             print(" File processed, runtime {} seconds ".format(runTime))
+            
+    return frames, labels, time_series_raw, time_series_ego, time_series_ego_norm, bad_files
