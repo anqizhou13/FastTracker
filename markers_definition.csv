@@ -1,0 +1,36 @@
+﻿label,desc,side,plane,body_part
+C7,7th Vervical Vertebra,NA,NA,Trunk
+RSHO,Right Shoulder,Right,NA,Upper Limb
+LSHO,Left Shoulder,Left,NA,Upper Limb
+RELB,Right Elbow,Right,Lateral,Upper Limb
+RWRA,Right Lateral Wrist,Right,Lateral,Upper Limb
+RWRB,Right Medial Wrist,Right,Medial,Upper Limb
+LELB,Left Elbow,Left,Lateral,Upper Limb
+LWRA,Left Lateral Wrist,Left,Lateral,Upper Limb
+LWRB,Left Medial Wrist,Left,Medial,Upper Limb
+RASI,Right Anterior Pelvis ,Right,Anterior,Trunk
+LASI,Left Anterior Pelvis ,Right,Anterior,Trunk
+RPSI,Right Posterior Pelvis,Right,Posterior,Trunk
+LPSI,Left Posterior Pelvis ,Left,Posterior,Trunk
+RTHI,Right Femur Midlength,Right,NA,Lower Limb
+RCONDE,Right Lateral Knee,Right,Lateral,Lower Limb
+RPER,Right Fibula Head,Right,Lateral,Lower Limb
+RTTA,Right Medial Epicondyle,Right,Medial,Lower Limb
+RMALE,Right Lateral Malleoli ,Right,Lateral,Lower Limb
+RMALI,Right Medial Malleoli,Right,Medial,Lower Limb
+RHEE,Right Heel,Right,Axial,Lower Limb
+RMETA5,Right Pinky Toe,Right,Lateral,Lower Limb
+RMETA1,Right Big Toe,Right,Medial,Lower Limb
+RHLX,Right 2nd Toe,Right,NA,Lower Limb
+LCONDE,Left Lateral Knee,Left,Lateral,Lower Limb
+LCONDI,Left Medial Knee,Left,Medial,Lower Limb
+LPER,Left Fibular Head,Left,Lateral,Lower Limb
+LTTA,Left Medial Epicondyle,Left,Medial,Lower Limb
+LMALE,Left Lateral Malleoli ,Left,Lateral,Lower Limb
+LMALI,Left Medial Malleoli,Left,Medial,Lower Limb
+LHEE,Left Heel,Left,Axial,Lower Limb
+LMETA5,Left Pinky Toe,Left,Lateral,Lower Limb
+LMETA1,Left Big Toe,Left,Medial,Lower Limb
+LHLX,Left 2nd Toe,Left,NA,Lower Limb
+RCONDI,Right Medial Knee,Right,Medial,Lower Limb
+LTHI,Left Femur Midlength,Left,NA,Lower Limb
