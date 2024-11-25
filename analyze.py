@@ -1,4 +1,4 @@
-def batch_process_c3d(data_folder):
+def batch_process_c3d(data_folder, pickle_output):
 
     # input: path to data folder
     # output:
@@ -52,10 +52,11 @@ def batch_process_c3d(data_folder):
             continue  # Skip the current iteration
 
         # save the raw time series and labels into a pickle file
-        print(f'Pickling raw time series...')
-        pickle_path = file+'_raw_time_series.pkl'
-        with open(pickle_path, "wb") as f:  
-            pickle.dump((markers_all,labels_all,), f)
+        if pickle_output:
+            print(f'Pickling raw time series...')
+            pickle_path = file+'_raw_time_series.pkl'
+            with open(pickle_path, "wb") as f:  
+                pickle.dump((markers_all,labels_all,), f)
 
         # find indices along the 1st dim of the markers array to find labels that are already annotated
         # untraced marker labels are numbered with asterisks (e.g. *36, *37)
@@ -98,7 +99,8 @@ def batch_process_c3d(data_folder):
         runTime = endTime - startTime
         print('Run time: {}s'.format(runTime))
 
-    pickle_path = data_folder+'/data_concatenated.pkl'
-    with open(pickle_path, "wb") as f:  
-        pickle.dump((labels_all_files, time_series_raw, time_series_ego, time_series_ego_norm, bad_files), f)
+    if pickle_output:
+        pickle_path = data_folder+'/data_concatenated.pkl'
+        with open(pickle_path, "wb") as f:  
+            pickle.dump((labels_all_files, time_series_raw, time_series_ego, time_series_ego_norm, bad_files), f)
     return labels_all_files, time_series_raw, time_series_ego, time_series_ego_norm, bad_files
