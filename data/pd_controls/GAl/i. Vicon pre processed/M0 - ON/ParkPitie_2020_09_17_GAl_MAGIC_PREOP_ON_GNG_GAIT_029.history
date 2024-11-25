@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="ParkPitie_2020_09_17_GAl_MAGIC_PREOP_ON_GNG_GAIT_029" notes="">
+
+  <Parameters>
+    <Param header="0" name="c3d" value="ParkPitie_2020_09_17_GAl_MAGIC_PREOP_ON_GNG_GAIT_029.c3d"/>
+    <Param header="0" name="Path" value="C:\Users\marco.romanato\OneDrive - ICM\Documents\Projects\Coordination analysis patterns\MAGIC\GAl\i. Vicon pre processed\ON"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.14.0.139696h"/>
+    </Parameters>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  GAULU04:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:23:06"/>
+          <Param header="0" name="Label" value="GAULU04:RHEE"/>
+          <Param header="0" name="Frame" value="1082"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  GAULU04:RMETA5" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:23:08"/>
+          <Param header="0" name="Label" value="GAULU04:RMETA5"/>
+          <Param header="0" name="Frame" value="1082"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  GAULU04:RMETA1" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:23:09"/>
+          <Param header="0" name="Label" value="GAULU04:RMETA1"/>
+          <Param header="0" name="Frame" value="1082"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  GAULU04:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:23:10"/>
+          <Param header="0" name="Label" value="GAULU04:RHLX"/>
+          <Param header="0" name="Frame" value="1082"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  GAULU04:RHEE" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:23:35"/>
+          <Param header="0" name="Label" value="GAULU04:RHEE"/>
+          <Param header="0" name="Frame" value="1119"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  GAULU04:RHLX" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:23:39"/>
+          <Param header="0" name="Label" value="GAULU04:RHLX"/>
+          <Param header="0" name="Frame" value="1119"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  GAULU04:RWRA" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:29:58"/>
+          <Param header="0" name="Label" value="GAULU04:RWRA"/>
+          <Param header="0" name="Frame" value="664"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  GAULU04:RWRB" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2023-Sep-26 12:29:59"/>
+          <Param header="0" name="Label" value="GAULU04:RWRB"/>
+          <Param header="0" name="Frame" value="664"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:16"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="SetTrajectory" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Jan-08 15:41:17"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>

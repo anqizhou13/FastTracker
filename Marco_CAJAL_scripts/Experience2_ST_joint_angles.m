@@ -1,0 +1,319 @@
+clear all
+close all
+clc
+
+%% MODULE 2 - Kinematics data processing
+addpath library
+
+% Initialize the path where the file is contained
+group = 'HS';
+subject = 'HS01';
+trialname = 'Sain_2020_10_30_BAn_GBMOV_T1_OFF_GNG_GAIT_001';
+elaboration.trialname = trialname;
+
+pathfile = ['..\\_icm_data\rawdata\',group,'\',subject,'\',trialname,'\raw'];
+pathsave = ['..\\_icm_data\rawdata\',group,'\',subject,'\',trialname,'\kinematics'];
+mkdir(pathsave)
+
+load([pathfile,'\_markers.mat'])
+
+
+% Load angles from a static acquisition to subtract the (pre-computed) static pose 
+staticfilepath = ['..\\_icm_data\rawdata\',group,'\',subject,'\'];
+staticfilename = 'Sain_2020_10_30_BAn_GBMOV_StaticAngles';
+load([staticfilepath, staticfilename])
+
+
+%% Spatiotemporal parameters of gait
+
+% Right cycle, instant definition for the last cycle
+
+RHS1 = events.Right_Foot_Strike(end-1);            % First right heel strike
+RHS2 = events.Right_Foot_Strike(end);              % Second right heel strike
+LHS1 = events.Left_Foot_Strike(end-1);             % First left heel strike
+LHS2 = events.Left_Foot_Strike(end);               % Second left heel strike
+
+% Check if the first right foot off (leg with whch the subject starts his walking) has been marked
+
+if events.Right_Foot_Strike(1) < events.Right_Foot_Off(1) 
+    RTO1 = events.Right_Foot_Off(end-1);
+elseif events.Right_Foot_Strike(1) > events.Right_Foot_Off(1) 
+    RTO1 = events.Right_Foot_Off(end);
+end
+
+% Step time [s]
+elaboration.st.steptime_right = RHS2-RHS1;
+
+% Stance time [s]
+elaboration.st.stancetime_right = RTO1-RHS1;
+
+% Swing time
+elaboration.st.swingtime_right = RHS2-RTO1;
+
+% Stance percentage [%]
+elaboration.st.stanceperc_right = elaboration.st.stancetime_right/elaboration.st.steptime_right*100;
+
+% Swing percentage [%]
+elaboration.st.swingperc_right = elaboration.st.swingtime_right/elaboration.st.steptime_right*100;
+
+% Step length [m] (markers trajectories are in mm!)
+elaboration.st.steplength_right = (markers.RHEE(round(RHS2*fs_markers),2)-markers.RHEE(round(RHS1*fs_markers),2))/1000;
+
+% Gait velocity [m/s]
+elaboration.st.gaitvelocity_right = elaboration.st.steplength_right/elaboration.st.steptime_right;
+
+% Cadence [step/min]
+elaboration.st.cadence_right = 120/elaboration.st.steptime_right; 
+
+% Check if the first defined step is right or left
+if RHS1 > LHS2
+   
+    % Double support [s]
+    elaboration.st.doublesupp_right = RTO1-LHS1;
+
+    % Double support perc [%]
+    elaboration.st.doublesuppperc_right = elaboration.st.doublesupp_right/elaboration.st.steptime_right*100;
+
+    % Step width [m]
+    elaboration.st.stepwidth_rigth = abs(((det([markers.LHEE(round(LHS2*fs_markers),[1,2]) 1;...
+                                markers.RHEE(round(RHS1*fs_markers),[1,2]) 1;...
+                                markers.RHEE(round(RHS2*fs_markers),[1,2]) 1]))/...
+                                norm(markers.RHEE(round(RHS2*fs_markers),[1,2])-...
+                                markers.RHEE(round(RHS1*fs_markers),[1,2])))/1000);
+
+else
+
+    % Double support [s]
+    elaboration.st.doublesupp_right = RTO1-LHS2;
+
+    % Double support perc [%]
+    elaboration.st.doublesuppperc_right = elaboration.st.doublesupp_right/elaboration.st.steptime_right*100;
+
+    % Step width [m]
+    elaboration.st.stepwidth_rigth = abs(((det([markers.LHEE(round(LHS1*fs_markers),[1,2]) 1;...
+                                markers.RHEE(round(RHS1*fs_markers),[1,2]) 1;...
+                                markers.RHEE(round(RHS2*fs_markers),[1,2]) 1]))/...
+                                norm(markers.RHEE(round(RHS2*fs_markers),[1,2])-...
+                                markers.RHEE(round(RHS1*fs_markers),[1,2])))/1000);
+
+
+end
+
+% Write a table with the spatio temporal parameters
+
+variables = [elaboration.st.steptime_right, elaboration.st.stancetime_right, elaboration.st.swingtime_right,...
+    elaboration.st.stanceperc_right, elaboration.st.swingperc_right, elaboration.st.steplength_right, ...
+    elaboration.st.gaitvelocity_right, elaboration.st.cadence_right, elaboration.st.doublesupp_right, ...
+    elaboration.st.doublesuppperc_right, elaboration.st.stepwidth_rigth];
+
+variablesname = {'steptime', 'stancetime', 'swingtime', 'stanceperc', 'swingperc', 'steplength', ...
+    'gaitvelocity', 'cadence', 'doublesupp','doublesuppperc', 'stepwidth'};
+
+tinfo = cell2table({trialname, subject, group, 'Right'}, 'VariableNames', {'trialname', 'subject', 'group', 'side'});
+tdata = array2table(variables,'VariableNames',variablesname);
+tablest = [tinfo, tdata];
+writetable(tablest,[pathsave, '\spatiotemporalright.xlsx'])
+
+%% Joint angles
+
+
+% Compute hip joint centers based on Harrington regression method
+% This is needed to compute the reference system of the tight
+[markers.RHJC, markers.LHJC] = HJCprediction(markers.LASI', markers.LPSI', markers.RASI', markers.RPSI');
+markers_labels = fieldnames(markers);           % Update marker labels
+
+R.glo = [1 0 0; 0 0 1 ; 0 1 0]; % Gloal reference system definition 
+
+for i = 1:size(markers.C7,1)        
+
+    % _____ Compute the local (anatomical) reference system for each frame
+    % Trunk 
+    [R.t(:,:,i), T.t(i,:)] = sistRif_trunk(markers.RSHO(i,:), markers.LSHO(i,:),markers.LPSI(i,:),markers.RPSI(i,:));
+    % Pelvis 
+    [R.p(:,:,i), T.p(i,:)] = sistRif_pelvi(markers.RASI(i,:), markers.RPSI(i,:),markers.LASI(i,:),markers.LPSI(i,:));
+    % Right tight
+    [R.tr(:,:,i), T.tr(i,:)] = sistRif_thigh(markers.RCONDI(i,:), markers.RCONDE(i,:),markers.RHJC(i,:),0);
+    % Right shank
+    [R.sr(:,:,i), T.sr(i,:)] = sistRif_shank(markers.RPER(i,:), markers.RTTA(i,:), markers.RMALI(i,:), markers.RMALE(i,:), 0);
+    % Right foot
+    [R.fr(:,:,i), T.fr(i,:)] = sistRif_foot(markers.RHEE(i,:), markers.RMETA1(i,:), markers.RHLX(i,:), markers.RMETA5(i,:), 0);
+    % Left tight
+    [R.tl(:,:,i), T.tl(i,:)] = sistRif_thigh(markers.LCONDI(i,:), markers.LCONDE(i,:),markers.LHJC(i,:),1);
+    % Left shank
+    [R.sl(:,:,i), T.sl(i,:)] = sistRif_shank(markers.LPER(i,:), markers.LTTA(i,:), markers.LMALI(i,:), markers.LMALE(i,:), 1);
+    % Left foot
+    [R.fl(:,:,i), T.fl(i,:)] = sistRif_foot(markers.LHEE(i,:), markers.LMETA1(i,:), markers.LHLX(i,:), markers.LMETA5(i,:), 1);
+                   
+    % _____ Angles with static subtraction 
+    % Trunk
+    [~,~,angles.trunk.fe(:,i)] = ges(R.t(:,:,i),R.p(:,:,i),0);
+    % Pelvis
+    [~,~,angles.pelvis.fe(:,i)] = ges(R.glo,R.p(:,:,i),0); 
+    % Right ankle
+    [~,~,angles.ankle.right.fe(:,i)] = ges(R.sr(:,:,i),R.fr(:,:,i),0);
+    % Left ankle
+    [~,~,angles.ankle.left.fe(:,i)] = ges(R.sl(:,:,i),R.fl(:,:,i),0); 
+    % Right knee
+    [~,~,angles.knee.right.fe(:,i)] = ges(R.tr(:,:,i),R.sr(:,:,i),1); 
+    % Left knee
+    [~,~,angles.knee.left.fe(:,i)] = ges(R.tl(:,:,i),R.sl(:,:,i),1);
+    % Right hip
+    [~,~,angles.hip.right.fe(:,i)] = ges(R.p(:,:,i),R.tr(:,:,i),0);
+    % Left hip
+    [~,~,angles.hip.left.fe(:,i)] = ges(R.p(:,:,i),R.tl(:,:,i),0);
+    
+    % Planar angles for arms and shoulders
+    forearmR = ((markers.RWRA(i,:)+markers.RWRB(i,:))/2)-markers.RELB(i,:);
+    armR = markers.RSHO(i,:)-markers.RELB(i,:);
+    forearmL = ((markers.LWRA(i,:)+markers.LWRB(i,:))/2)-markers.LELB(i,:);
+    armL = markers.LSHO(i,:)-markers.LELB(i,:);
+    trunk = (markers.RSHO(i,:)+markers.LSHO(i,:))-(markers.RPSI(i,:)+markers.LPSI(i,:));
+    
+    angles.elbow.right.fe(:,i) = atan2d(norm(cross(forearmR,armR)), dot(forearmR,armR))-90;
+    angles.elbow.left.fe(:,i) =  atan2d(norm(cross(forearmL,armL)), dot(forearmL,armL))-90;
+    angles.shoulder.right.fe(:,i) =  atan2d(norm(cross(trunk,armR)), dot(trunk,armR));
+    angles.shoulder.left.fe(:,i) =  atan2d(norm(cross(trunk,armL)), dot(trunk,armL));
+
+end
+
+% Static subtraction: per each joint, sbtract the static angle 
+
+jointsname = {'trunk', 'pelvis','ankle.right','ankle.left','knee.right','knee.left','hip.right','hip.left',...
+    'elbow.right','elbow.left','shoulder.right','shoulder.left'};
+
+elaboration.angles.trunk.fe = angles.trunk.fe-staticAngles.trunk.fe;
+elaboration.angles.pelvis.fe = angles.pelvis.fe-staticAngles.pelvis.fe;
+elaboration.angles.ankle.right.fe = angles.ankle.right.fe-staticAngles.ankle.right.fe;
+elaboration.angles.ankle.left.fe = angles.ankle.left.fe-staticAngles.ankle.left.fe;
+elaboration.angles.knee.right.fe = angles.knee.right.fe-staticAngles.knee.right.fe;
+elaboration.angles.knee.left.fe = angles.knee.left.fe-staticAngles.knee.left.fe;
+elaboration.angles.hip.right.fe = angles.hip.right.fe-staticAngles.hip.right.fe;
+elaboration.angles.hip.left.fe = angles.hip.left.fe-staticAngles.hip.left.fe;
+elaboration.angles.elbow.right.fe = angles.elbow.right.fe-staticAngles.elbow.right.fe;
+elaboration.angles.elbow.left.fe = angles.elbow.left.fe-staticAngles.elbow.left.fe;
+elaboration.angles.shoulder.right.fe = angles.shoulder.right.fe-staticAngles.shoulder.right.fe;
+elaboration.angles.shoulder.left.fe = angles.shoulder.left.fe-staticAngles.shoulder.left.fe;
+
+% Plot the angles (time normalized over 100 samples) for the considered right gait cycle
+
+timevec = round(RHS1*fs_markers:RHS2*fs_markers);
+
+figure('Units','centimeters','position',[2 2 16 24])
+
+subplot(6,2,1)
+plot(interp1D(elaboration.angles.trunk.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Trunk flexion\extension')
+
+subplot(6,2,2)
+plot(interp1D(elaboration.angles.pelvis.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Pelvis flexion\extension')
+
+subplot(6,2,3)
+plot(interp1D(elaboration.angles.shoulder.right.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Shoulder right flexion\extension')
+
+subplot(6,2,4)
+plot(interp1D(elaboration.angles.shoulder.left.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Shoulder left flexion\extension')
+
+subplot(6,2,5)
+plot(interp1D(elaboration.angles.elbow.right.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Elbow right flexion\extension')
+
+subplot(6,2,6)
+plot(interp1D(elaboration.angles.elbow.left.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Elbow left flexion\extension')
+
+subplot(6,2,7)
+plot(interp1D(elaboration.angles.hip.right.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Hip right flexion\extension')
+
+subplot(6,2,8)
+plot(interp1D(elaboration.angles.hip.left.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Hip left flexion\extension')
+
+subplot(6,2,9)
+plot(interp1D(elaboration.angles.knee.right.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Knee right flexion\extension')
+
+subplot(6,2,10)
+plot(interp1D(elaboration.angles.knee.left.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Knee left flexion\extension')
+
+subplot(6,2,11)
+plot(interp1D(elaboration.angles.ankle.right.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Ankle right flexion\extension')
+
+subplot(6,2,12)
+plot(interp1D(elaboration.angles.ankle.left.fe(timevec)',100),'k','LineWidth',2)
+hold on 
+xline(elaboration.st.stanceperc_right, 'k:')
+xlim([0 inf]); xlabel('Gait cycle [%]'); ylabel('deg'); grid minor
+title('Ankle left flexion\extension')
+
+saveas(gca,[pathsave,'\_anglesright.fig'])
+
+elaboration.events = events;
+
+save([pathsave, '\_elaborationkinematics.mat'],"elaboration")
+
+% Range of motion
+% Compute the range of motion for the angles of the considered gait cycle
+
+elaboration.rom.trunk.fe = abs(max(elaboration.angles.trunk.fe(timevec))-min(elaboration.angles.trunk.fe(timevec)));
+elaboration.rom.pelvis.fe = abs(max(elaboration.angles.pelvis.fe(timevec))-min(elaboration.angles.pelvis.fe(timevec)));
+elaboration.rom.hip.right.fe = abs(max(elaboration.angles.hip.right.fe(timevec))-min(elaboration.angles.hip.right.fe(timevec)));
+elaboration.rom.hip.left.fe = abs(max(elaboration.angles.hip.left.fe(timevec))-min(elaboration.angles.hip.left.fe(timevec)));
+elaboration.rom.knee.right.fe = abs(max(elaboration.angles.knee.right.fe(timevec))-min(elaboration.angles.knee.right.fe(timevec)));
+elaboration.rom.knee.left.fe = abs(max(elaboration.angles.knee.left.fe(timevec))-min(elaboration.angles.knee.left.fe(timevec)));
+elaboration.rom.ankle.right.fe = abs(max(elaboration.angles.ankle.right.fe(timevec))-min(elaboration.angles.ankle.right.fe(timevec)));
+elaboration.rom.ankle.left.fe = abs(max(elaboration.angles.ankle.left.fe(timevec))-min(elaboration.angles.ankle.left.fe(timevec)));
+elaboration.rom.elbow.right.fe = abs(max(elaboration.angles.elbow.right.fe(timevec))-min(elaboration.angles.elbow.right.fe(timevec)));
+elaboration.rom.elbow.left.fe = abs(max(elaboration.angles.elbow.left.fe(timevec))-min(elaboration.angles.elbow.left.fe(timevec)));
+elaboration.rom.shoulder.right.fe = abs(max(elaboration.angles.shoulder.right.fe(timevec))-min(elaboration.angles.shoulder.right.fe(timevec)));
+elaboration.rom.shoulder.left.fe = abs(max(elaboration.angles.shoulder.left.fe(timevec))-min(elaboration.angles.shoulder.left.fe(timevec)));
+
+variables_rom = [elaboration.rom.trunk.fe, elaboration.rom.pelvis.fe, elaboration.rom.hip.right.fe, elaboration.rom.hip.left.fe,...
+    elaboration.rom.knee.right.fe, elaboration.rom.knee.left.fe, elaboration.rom.ankle.right.fe, elaboration.rom.ankle.left.fe, ...
+    elaboration.rom.elbow.right.fe, elaboration.rom.elbow.left.fe, elaboration.rom.shoulder.right.fe, elaboration.rom.shoulder.left.fe];
+
+variablesname_rom = {'rom trunk fe', 'rom pelvis fe', 'rom hip right fe', 'rom hip left fe', ... 
+    'rom knee right fe', 'rom knee left fe', 'rom ankle right fe', 'rom ankle left fe', ...
+    'rom elbow right fe', 'rom elbow left fe', 'rom shoulder right fe', 'rom shoulder left fe'};
+
+tdata_rom = array2table(variables_rom,'VariableNames',variablesname_rom);
+tablest = [tinfo, tdata_rom];
+writetable(tablest,[pathsave, '\romright.xlsx'])

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Trial name="ParkRouen_2022_11_15_CAe_MAGIC_M6_C4_GNG_GAIT_006" notes="">
+
+  <Parameters>
+    <Param header="0" name="c3d" value="ParkRouen_2022_11_15_CAe_MAGIC_M6_C4_GNG_GAIT_006.c3d"/>
+    <Param header="0" name="Path" value="C:\Users\marco.romanato\OneDrive - ICM\Documents\Projects\Kinematics assessment\MAGIC\CAe\i. Vicon pre processed\M6 - C4"/>
+  </Parameters>
+
+  <Run name="" notes="">
+    <Parameters>
+      <Param header="0" name="Version" value="2.14.0.139696h"/>
+    </Parameters>
+    <OperationType name="Manual Edits" notes="">
+      <OperationSubType name="Label Trajectory  CAE:RSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Feb-01 11:08:28"/>
+          <Param header="0" name="Label" value="CAE:RSHO"/>
+          <Param header="0" name="Frame" value="371"/>
+        </Parameters>
+      </OperationSubType>
+      <OperationSubType name="Label Trajectory  CAE:LSHO" notes="">
+        <Parameters>
+          <Param header="0" name="Date" value="2024-Feb-01 11:08:29"/>
+          <Param header="0" name="Label" value="CAE:LSHO"/>
+          <Param header="0" name="Frame" value="371"/>
+        </Parameters>
+      </OperationSubType>
+    </OperationType>
+  </Run>
+
+</Trial>
