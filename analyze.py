@@ -53,7 +53,7 @@ def batch_process_c3d(data_folder, pickle_output):
 
         # save the raw time series and labels into a pickle file
         if pickle_output:
-            print(f'Pickling raw time series...')
+            print('Pickling raw time series...')
             pickle_path = file+'_raw_time_series.pkl'
             with open(pickle_path, "wb") as f:  
                 pickle.dump((markers_all,labels_all,), f)
@@ -100,6 +100,7 @@ def batch_process_c3d(data_folder, pickle_output):
         print('Run time: {}s'.format(runTime))
 
     if pickle_output:
+        print('Pickling everything together ...')
         pickle_path = data_folder+'/data_concatenated.pkl'
         with open(pickle_path, "wb") as f:  
             pickle.dump((labels_all_files, time_series_raw, time_series_ego, time_series_ego_norm, bad_files), f)
